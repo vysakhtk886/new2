@@ -33,7 +33,7 @@ button:hover {
     background-image: linear-gradient(green,white);
 }
 div {
-  /* background-image: url('image/pexels-jessica-lewis-583846.jpg'); */
+  background-image: url( "{% static 'image/pexels-jessica-lewis-583846.jpg' %}");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
