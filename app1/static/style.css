@@ -1,0 +1,40 @@
+input {
+    height: 40px;
+    width: 400px;
+    border: 2px solid rgb(12, 11, 11);
+    border-radius: 10px;
+    padding: 5px;
+}
+button {
+    height: 50px;
+    width: 200px;
+    border: solid rgb(44, 40, 35) 2px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    background-image: linear-gradient(black,white);
+    color: black;
+    font-weight: bold;
+}
+table {
+    border: rgb(77, 15, 51) solid 0px;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 50px;
+    background: black;
+    background: rgba(12, 3, 3, 0.6);
+}
+.head {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+button:hover {
+    background-image: linear-gradient(green,white);
+}
+div {
+  /* background-image: url('image/pexels-jessica-lewis-583846.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
